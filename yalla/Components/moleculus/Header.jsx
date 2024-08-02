@@ -18,11 +18,7 @@ function Header() {
                         <li><AnchorTag variant='Headerh' href='/electricservice'>Electrician Services</AnchorTag></li>
                         <li><AnchorTag variant='Headerh' href=''>Painting & Partitions</AnchorTag></li>
                         <li><AnchorTag variant='Headerh' href=''>Cleaning Services</AnchorTag></li>
-                        <li><AnchorTag variant='Headerh' href=''>Moving & Relocating</AnchorTag></li>
                         <li><AnchorTag variant='Headerh' href=''>Interior Design</AnchorTag></li>
-                        <li><AnchorTag variant='Headerh' href=''>Garden Maintenance</AnchorTag></li>
-                        <li><AnchorTag variant='Headerh' href=''>Swimming Pool & Jacuzzi</AnchorTag></li>
-                        <li><AnchorTag variant='Headerh' href=''>Blog</AnchorTag></li>
                     </ul>
                     
                     </li>
