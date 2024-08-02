@@ -4,6 +4,7 @@ import Heading from '../atoms/Heading'
 import Paragraph from '../atoms/Paragraph'
 import Offer from '../moleculus/Offer'
 import Howwork from '../moleculus/Howwork'
+import Clints from '../moleculus/Clints'
 
 function Offermain() {
   return (
@@ -18,6 +19,7 @@ function Offermain() {
         </Container>
     </div>
     <Howwork/>
+    <Clints/>
  </div>
   )
 }

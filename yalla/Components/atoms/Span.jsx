@@ -15,6 +15,10 @@ const Span = ({ level, children }) => {
                 return "text-[75px] text-[#164b8d] font-[800] pr-[3%] ";
             case "work2":
                 return "text-[27px] font-[700] text-[#212529] whitespace-nowrap ";
+                case "clintbox":
+                return "text-[60px] font-[800] text-white  ";
+                case "clint":
+                return "text-[20px] font-[500] text-white  ";
             default:
                 return "text-lg"
         }
