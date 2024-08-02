@@ -1,4 +1,5 @@
 import Acservicemain from '@/Components/organisms/Acservicemain'
+import Footer from '@/Components/organisms/Footer'
 import Headermain from '@/Components/organisms/Headermain'
 import Offermain from '@/Components/organisms/Offermain'
 import React from 'react'
@@ -9,6 +10,7 @@ function acservice() {
         <Headermain/>
         <Acservicemain/>
         <Offermain/>
+        <Footer/>
     </div>
   )
 }

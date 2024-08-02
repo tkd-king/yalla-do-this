@@ -29,6 +29,10 @@ const AnchorTag = ({ href, children, variant = '' }) => {
     case "services2":
       anchorStyle ="text-[16px] text-[#2d334a]cursor-pointer font-[500]";
       break;
+      case "danger":
+      anchorStyle ="text-[22px] text-[#164b8d] cursor-pointer font-[500]";
+      break;
+      
     default:
       anchorStyle = "";
   }
