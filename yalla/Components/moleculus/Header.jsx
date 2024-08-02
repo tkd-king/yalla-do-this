@@ -23,7 +23,7 @@ function Header() {
                     
                     </li>
                     
-                    <li> <AnchorTag variant='Header'>Contact</AnchorTag></li>
+                    <li> <AnchorTag variant='Header' href='/contactus'>Contact</AnchorTag></li>
                 </ul>
             </div>
         </div>
