@@ -40,3 +40,11 @@ li:hover .dropdown2 {
     opacity: 50;
     background-color: black;
 }
+
+
+.baner-bg {
+    background-image: url('../public/assits/images/banner.jpg');
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
