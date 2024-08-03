@@ -1,6 +1,8 @@
 import React from 'react'
 import Heading from '../atoms/Heading'
 import { MdArrowOutward } from "react-icons/md";
+import Bannerflow from './Bannerflow'
+
 
 export default function Banner() {
   return (
@@ -19,6 +21,7 @@ export default function Banner() {
           </div>
         </div>
       </div>
+      <Bannerflow/>
     </div>
   )
 }
