@@ -10,9 +10,9 @@ function home() {
     <div>
         <Headermain/>
         <Banner/>
-        <OverServices/>
-        <Section/>
-        <Footer/>/
+        {/* <OverServices/>
+        <Section/> */}
+        {/* <Footer/> */}
     </div>
   )
 }
