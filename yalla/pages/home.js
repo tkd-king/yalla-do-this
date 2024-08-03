@@ -3,6 +3,7 @@ import Headermain from '@/Components/organisms/Headermain'
 import React from 'react'
 import Footer from '@/Components/organisms/Footer'
 import Section from '@/Components/moleculus/Section'
+import MaintainceService from '@/Components/moleculus/MaintainceService'
 
 function home() {
   return (
@@ -10,7 +11,7 @@ function home() {
         <Headermain/>
         <Banner/>
         <Section/>
-        {/* <Footer/> */}
+        <MaintainceService/>
     </div>
   )
 }
