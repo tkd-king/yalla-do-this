@@ -8,8 +8,11 @@ const Paragraph = ({children, variant = '' }) => {
     case "banner":
       paragraphStyle = " text-[#091736] text-[17px] font-[600] tracking-[1px] ";
       break;
+      case "homepara":
+      paragraphStyle = " cursor-pointer  leading-[25px] text-[#8b8a8a] text-[17px] font-medium ";
+      break;
       case "imgs":
-        paragraphStyle = "cursor-pointer pt-[2%] leading-[25px] text-[#747474] text-[14px] font-semibold";
+        paragraphStyle = "cursor-pointer pt-[2%] leading-[25px] text-[#8b8a8a] text-[14px] font-semibold";
       break;
       case "offer":
         paragraphStyle = " leading-[25px]  text-[16px] font-[400] mt-[20px]";
