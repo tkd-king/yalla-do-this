@@ -12,8 +12,8 @@ function home() {
         <Headermain/>
         <Banner/>
         <Section/>
-        <MaintainceService/>
         <Temperature/>
+        <MaintainceService/>
         {/* <Footer/> */}
 
     </div>
