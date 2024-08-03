@@ -28,24 +28,26 @@ function Map() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                         </Paragraph>
                     </div>
-                    <div className='pt-[4%]'>
-                        <div className='flex text-center gap-[10px]'>
-                            <IoLocation className='text-4xl' />
-                            <Span>Loction</Span>
+                    <div className='pt-[7%]'>
+                        <div className='flex  items-center justify-evenly'>
+                            <div className='flex   items-center text-center gap-2'>
+                                <IoLocation className='text-2xl' />
+                                <Span level='contact'>Al Qouz, Dubai</Span>
+                            </div>
+                            <div className='flex-col'>
+                                <Paragraph></Paragraph>
+                            </div>
+                            <div className='flex items-center text-center gap-2'>
+                                <IoMdMail className='text-2xl' />
+                                <Span level='contact'>waqaswqspk@gmail.com</Span>
+                            </div>
                         </div>
-                        <Paragraph variant='contact2'>Al Qouz, Dubai</Paragraph>
+                        
 
-                        <div className='flex text-center gap-[10px] pt-[20px]'>
-                            <IoMdMail className='text-4xl' />
-                            <Span>waqaswqspk@gmail.com</Span>
+                        <div className='flex text-center items-center justify-center  mr-[12%] gap-[10px] pt-[30px]'>
+                            <IoCall className='text-[25px]' />
+                            <Span level='contact'>0508786126</Span>
                         </div>
-                        <Paragraph variant='contact2'>waqaswqspk@gmail.com</Paragraph>
-
-                        <div className='flex text-center gap-[10px] pt-[20px]'>
-                            <IoLocation className='text-4xl' />
-                            <Span>0508786126</Span>
-                        </div>
-                        <Paragraph variant='contact2'>0508786126</Paragraph>
 
                     </div>
                 </div>

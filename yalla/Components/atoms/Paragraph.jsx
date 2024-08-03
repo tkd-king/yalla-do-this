@@ -18,11 +18,11 @@ const Paragraph = ({children, variant = '' }) => {
         paragraphStyle = " leading-[25px] text-black  text-[16px] font-[500] tracking-wide ";
       break;
       case "contact":
-        paragraphStyle = " leading-[25px] text-black pt-[4%]text-[15px] font-[500] tracking-wide ";
+        paragraphStyle = " leading-[25px] text-black pt-[2%] text-[14px] font-[500] tracking-wide ";
       break;
       
       case "contact2":
-        paragraphStyle = " text-600-gray  px-[40px] text-[16px] font-[500] tracking-wide ";
+        paragraphStyle = " text-600-gray  px-[40px] text-[14px] font-[500] ";
       break;
         
     default:
