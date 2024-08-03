@@ -23,6 +23,17 @@ const Paragraph = ({children, variant = '' }) => {
       case "contact":
         paragraphStyle = " leading-[25px] text-black pt-[2%] text-[14px] font-[500] tracking-wide ";
       break;
+      case "HandyPara":
+        paragraphStyle = " text-[#fff] font-light text-[18px] leading-7";
+      break;
+        
+    case "tempara":
+      paragraphStyle = " text-[#091736] text-[15px] font-[600] tracking-[1px] ";
+      break;
+      case "temperature":
+        paragraphStyle = " leading-[25px] text-[#979FAE]  text-[16px] font-[500] tracking-wide ";
+        break;
+
       
       case "contact2":
         paragraphStyle = " text-600-gray  px-[40px] text-[14px] font-[500] ";

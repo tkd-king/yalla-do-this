@@ -4,6 +4,7 @@ import React from 'react'
 import Footer from '@/Components/organisms/Footer'
 import Section from '@/Components/moleculus/Section'
 import MaintainceService from '@/Components/moleculus/MaintainceService'
+import Temperature from '@/Components/moleculus/Temperature'
 
 function home() {
   return (
@@ -12,6 +13,9 @@ function home() {
         <Banner/>
         <Section/>
         <MaintainceService/>
+        <Temperature/>
+        {/* <Footer/> */}
+
     </div>
   )
 }
