@@ -3,16 +3,19 @@ import Headermain from '@/Components/organisms/Headermain'
 import React from 'react'
 import Footer from '@/Components/organisms/Footer'
 import Section from '@/Components/moleculus/Section'
-import OverServices from '@/Components/moleculus/Overservices'
+import MaintainceService from '@/Components/moleculus/MaintainceService'
+import Temperature from '@/Components/moleculus/Temperature'
 
 function home() {
   return (
     <div>
         <Headermain/>
         <Banner/>
-        <OverServices/>
         <Section/>
-        <Footer/>/
+        <Temperature/>
+        <MaintainceService/>
+        {/* <Footer/> */}
+
     </div>
   )
 }

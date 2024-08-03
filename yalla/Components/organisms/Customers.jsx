@@ -18,7 +18,7 @@ const Customers = () => {
         <div className=" max-w-[100%] flex flex-col gap-[30px] my-[50px] ">
             <h3 data-aos="fade-in" className='text-center text-gray-800 font-semibold text-[34px] ' >Our trusted Clients</h3>
             <Slider className=' w-[98%] ' {...settings}>
-                <div  data-aos="zoom-in-up" data-aos-duration="100" >
+                <div data-aos="zoom-in-up" data-aos-duration="1000" >
                     <PlumberClient name='John Doe' msg="I had a great experience with PlumeCare. Their tear
                     arived on time and did an excellent job repairing my
                     leaky faucet. They were professional, and completed
@@ -43,12 +43,12 @@ const Customers = () => {
                     />
                 </div>
                 <div>
-                    
-                <PlumberClient name='Maria Jalil' msg="I had a great experience with PlumeCare. Their tear
+
+                    <PlumberClient name='Maria Jalil' msg="I had a great experience with PlumeCare. Their tear
                     arived on time and did an excellent job repairing my
                     leaky faucet. They were professional, and completed
-                    the job quickly." 
-                    src="/assits/images/client4.jpeg"
+                    the job quickly."
+                        src="/assits/images/client4.jpeg"
                     />
                 </div>
             </Slider>
