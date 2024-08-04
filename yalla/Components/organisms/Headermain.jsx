@@ -7,9 +7,9 @@ import Container from '../atoms/Container'
 
 function Headermain() {
     return (
-        <div>
+        <div data-aos="fade-down" >
            <Container>
-           <div className='flex justify-between text-center items-center pt-[20px]'>
+           <div className='flex justify-between text-center items-center pt-[10px]'>
                 <Logo  href='' src='/asitd/images/logo.png' />
             <Header />
             </div>
