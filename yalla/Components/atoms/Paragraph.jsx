@@ -34,10 +34,15 @@ const Paragraph = ({children, variant = '' }) => {
         paragraphStyle = " leading-[25px] text-[#979FAE]  text-[16px] font-[500] tracking-wide ";
         break;
 
+        case "Relaxpara":
+          paragraphStyle = " leading-[25px] text-[#ffffff]  text-[16px] font-[500]  ";
+          break;
+  
       
       case "contact2":
         paragraphStyle = " text-600-gray  px-[40px] text-[14px] font-[500] ";
       break;
+
         
     default:
       paragraphStyle = "";
